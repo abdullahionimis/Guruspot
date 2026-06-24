@@ -10,15 +10,3 @@ This is the backend repository for the GuruSpot platform.
 5. **Validation Middleware**: Configured `zod` for validating API request payloads dynamically.
 6. **API Documentation**: Integrated Swagger UI for API documentation at `/api-docs`.
 7. **User Routes & Controllers**: Added initial endpoints to fetch and update user profiles.
-
-## Setup Instructions
-
-1. Clone the repository.
-2. Run `npm install` to install dependencies.
-3. Add your Supabase credentials in a `.env` file (see `.env.example` or update `.env`).
-4. Run `npm run dev` to start the local development server.
-
-## Scripts
-- `npm run dev`: Run server in development mode.
-- `npm run build`: Compile TypeScript.
-- `npm start`: Start compiled JS in production.

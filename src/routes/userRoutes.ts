@@ -40,7 +40,7 @@ router.get('/profile', requireAuth, getProfile);
  *                 example: "John Doe"
  *               avatar_url:
  *                 type: string
- *                 example: "https:
+ *                 example: "https://example.com/avatar.jpg"
  *               skill_level:
  *                 type: string
  *                 enum: [beginner, intermediate, advanced]

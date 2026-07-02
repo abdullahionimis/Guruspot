@@ -12,6 +12,7 @@ CREATE TABLE public.users (
   goals text[],
   badge_count int default 0,
   is_onboarded boolean default false,
+  is_admin boolean default false,
   created_at timestamptz default now(),
   updated_at timestamptz default now()
 );
